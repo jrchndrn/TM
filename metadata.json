@@ -1,0 +1,6 @@
+{
+  "name": "Chandrutty Tournament Manager",
+  "description": "Professional tournament management with live standings, cross-group knockout progression, tiebreaker shootouts, golden boot stats, and match poster generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

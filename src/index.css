@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #080e0b;
+    color: #f1f5f9;
+    overflow-x: hidden;
+  }
+}
+
+.font-display {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.pitch-pattern {
+  background-color: #07100b;
+  background-image: 
+    linear-gradient(rgba(16, 185, 129, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 185, 129, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.pitch-turf-gradient {
+  background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.15), transparent 70%),
+              radial-gradient(circle at 100% 100%, rgba(5, 150, 105, 0.08), transparent 50%),
+              #080e0b;
+}
+
+/* Custom sports scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09130e;
+}
+::-webkit-scrollbar-thumb {
+  background: #143525;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
